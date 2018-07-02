@@ -4,6 +4,7 @@ RED='\033[1;31m'
 WHITE='\033[1;37m'
 ORANGE='\033[01;38;5;166m'
 GREEN='\033[01;38;5;118m'
+BLUE='\e[96m'
 echo "Task Completed Thanks For Using"
 printf "${ORANGE}"
 echo -e " ███████╗  ███████╗ ██████╗  ██╗  ██╗  █████╗  ██╗"
@@ -20,35 +21,34 @@ echo -e "=======================================================================
 echo -e "                             This Script will convert a Debian based os to Kali Linux"
 echo -e "                                            (Tested on Debian and Ubuntu)"
 echo -e "============================================================================================================================="
-echo -e "Are you Ready to Proceed (y/n) "
-
+echo -e "Are you Ready to Proceed (y/n) :- "
+read  sure
+    if [ "$sure" == y ] ; then
     clear
     echo -e "================================================================================================================"
     echo -e "----------------------Welcome to Kali Linux OS Installer-------------------------"
-    echo -e "1) Install Kali Linux base system"
-    echo -e "2) Install Kali Linux - all packages"
-    echo -e "3) Install Kali Linux forensic tools"
-    echo -e "4) Install Kali Linux complete system"
-    echo -e "5) Install Kali Linux GPU tools"
-    echo -e "6) Install Kali Linux Nethunter tools"
-    echo -e "7) Install Kali Linux password cracking tools"
-    echo -e "8) Install Kali Linux RFID tools"
-    echo -e "9) Install Kali Linux SDR tools"
-    echo -e "10) Install Kali Linux Top 10 tools"
-    echo -e "11) Install Kali Linux VoIP tools"
-    echo -e "12) Install Kali Linux webapp assessment tools"
-    echo -e "13) Install Kali Linux wireless tools"
+    echo -e "1) Install Kali Linux base system ${BLUE} ( Size: 1.5 GB ) ${WHITE}"
+    echo -e "2) Install Kali Linux - all packages ${BLUE} ( Size: 9.0 GB ) ${WHITE}"
+    echo -e "3) Install Kali Linux forensic tools ${BLUE} ( Size: 3.1 GB ) ${WHITE}"
+    echo -e "4) Install Kali Linux complete system ${BLUE} ( Size: 15 GB ) ${WHITE}"
+    echo -e "5) Install Kali Linux GPU tools ${BLUE} ( Size: 4.8 GB ) ${WHITE}"
+    echo -e "6) Install Kali Linux password cracking tools ${BLUE} ( Size: 6.0 GB ) ${WHITE}"
+    echo -e "7) Install Kali Linux RFID tools ${BLUE} ( Size: 1.5 GB ) ${WHITE}"
+    echo -e "8) Install Kali Linux SDR tools ${BLUE} ( Size: 2.4 GB ) ${WHITE}"
+    echo -e "9) Install Kali Linux Top 10 tools ${BLUE} ( Size: 3.5 GB ) ${WHITE}"
+    echo -e "10) Install Kali Linux VoIP tools ${BLUE} ( Size: 1.8 GB ) ${WHITE}"
+    echo -e "11) Install Kali Linux webapp assessment tools ${BLUE} ( Size: 4.9 GB ) ${WHITE}"
+    echo -e "12) Install Kali Linux wireless tools ${BLUE} ( Size: 6.6 GB ) ${WHITE}"
     echo -e "============================================================================================================="
-    echo -e "Choose one of the Following (1-12):- "
-    
-    
+    echo -e "Choose one of the Following (1-13):- "
+    if (($i <= 13 )) && (( $i >= 1 )); then 
     echo -e "deb http://http.kali.org/kali kali-rolling main contrib non-free" >> /etc/apt/sources.list
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
     sudo apt-get install kali-archive-keyring --allow-unauthenticated -y
     sudo apt-get update && apt-get upgrade --allow-unauthenticated -y && apt-get dist-upgrade -y  --allow-unauthenticated
     apt-get -f install -y  --allow-unauthenticated
-    kali=("kali-linux" "kali-linux-all" "kali-linux-forensic" "kali-linux-full" "kali-linux-gpu" "kali-linux-nethunter" "kali-linux-pwtools" "kali-linux-rfid" "kali-linux-sdr" "kali-linux-top10" "kali-linux-voip" "kali-linux-web" "kali-linux-wireless")
+    kali=("kali-linux" "kali-linux-all" "kali-linux-forensic" "kali-linux-full" "kali-linux-gpu" "kali-linux-pwtools" "kali-linux-rfid" "kali-linux-sdr" "kali-linux-top10" "kali-linux-voip" "kali-linux-web" "kali-linux-wireless")
     apt-get -f install ${kali[$1-1]} -y --allow-unauthenticated
     echo "Kali" >> /etc/hostname
     sudo apt update -y && sudo apt upgrade -y
@@ -59,10 +59,11 @@ echo -e "Are you Ready to Proceed (y/n) "
     echo -e "\n\n Installation Completed Successfully!!! Just reboot the server !!"
     echo -e "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
     read -n 1 -s -r -p "Press any key to continue To next step..."
-    
-    
-    
-    
+    else
+    echo -e "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+    echo -e "\n\n Wrong input instalation canceled !!"
+    echo -e "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+    fi
 clear
 echo -e "\nDo you want to install VNC?"
 echo -e "\n 1. Yes, Install Graphical VNC"
@@ -106,7 +107,6 @@ do
 		echo -e "============================================================================================================================="
 		break
 		;;
-
 	2)
   echo -e "============================================================================================================================="
   echo -e"Okay your Wish VNC not installed"
@@ -116,4 +116,3 @@ do
 		;;
  esac
 done
-    
