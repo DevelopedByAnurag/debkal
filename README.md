@@ -28,5 +28,9 @@ Errors may occur in the installation due to older version of Os or any other err
 
 ## Gallery
 
+<img src="https://raw.githubusercontent.com/DevelopedByAnurag/debkal/master/screenshot/1.png" width="30%"></img> <img src="https://raw.githubusercontent.com/DevelopedByAnurag/debkal/master/screenshot/2.png" width="30%"></img> <img src="https://raw.githubusercontent.com/DevelopedByAnurag/debkal/master/screenshot/3.png" width="30%"></img>
+
+More SS commming soon
+
 
 If you like this installer Please Share it with your Developers Freinds Also consider Sharing it so that It can help them to Setup  VNC.
