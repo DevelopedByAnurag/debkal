@@ -26,4 +26,7 @@ Errors may occur in the installation due to older version of Os or any other err
 ./trouble.sh
 ```
 
+## Gallery
+
+
 If you like this installer Please Share it with your Developers Freinds Also consider Sharing it so that It can help them to Setup  VNC.
