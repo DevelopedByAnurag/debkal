@@ -35,8 +35,8 @@ echo -e "=======================================================================
     echo -e "11) Install Kali Linux webapp assessment tools ${BLUE} ( Size: 4.9 GB ) ${WHITE}"
     echo -e "12) Install Kali Linux wireless tools ${BLUE} ( Size: 6.6 GB ) ${WHITE}"
     echo -e "============================================================================================================="
-    echo -e "Choose one of the Following (1-13):- "
-    if (($i <= 13 )) && (( $i >= 1 )); then 
+    read -p 'Choose one of the Following (1-13):- ' i
+    if (($i <= 12 )) && (( $i >= 1 )); then 
     echo -e "deb http://http.kali.org/kali kali-rolling main contrib non-free" >> /etc/apt/sources.list
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
