@@ -20,10 +20,6 @@ echo -e "=======================================================================
 echo -e "                             This Script will convert a Debian based os to Kali Linux"
 echo -e "                                            (Tested on Debian and Ubuntu)"
 echo -e "============================================================================================================================="
-echo -e "Are you Ready to Proceed (y/n) :- "
-read  sure
-    if [ "$sure" == y ] ; then
-    clear
     echo -e "================================================================================================================"
     echo -e "----------------------Welcome to Kali Linux OS Installer-------------------------"
     echo -e "1) Install Kali Linux base system ${BLUE} ( Size: 1.5 GB ) ${WHITE}"
@@ -114,5 +110,4 @@ do
 		break
 		;;
  esac
-fi
 done
