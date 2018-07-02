@@ -18,7 +18,7 @@ Here is Automated Shell Script that Converts a Debian based OS to a pentesting t
 
 ```
 
-##TroubleShooting
+## TroubleShooting
 
 Errors may occur in the installation due to older version of Os or any other error just run the trouble.sh by executing the folllowing command it will rectify the error and install all the kali linux tools on the Machine
 
