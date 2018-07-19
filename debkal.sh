@@ -93,7 +93,7 @@ do
 		. /lib/lsb/init-functions" >> /etc/init.d/vncserver
 		sudo chmod +x /etc/init.d/vncserver
 		rm /etc/hostname
-		echo "Parrot OS" >> /etc/hostname
+		echo "Kali" >> /etc/hostname
 		vncserver
 		su
 		clear
