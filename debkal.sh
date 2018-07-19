@@ -38,6 +38,8 @@ echo -e "=======================================================================
     read -p 'Choose one of the Following (1-13):- ' i
     if (($i <= 12 )) && (( $i >= 1 )); then 
     echo -e "deb http://http.kali.org/kali kali-rolling main contrib non-free" >> /etc/apt/sources.list
+    sudo sudo apt-get update -y
+    sudo apt-get install wget -y
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
     wget -q -O - https://archive.kali.org/archive-key.asc  | apt-key add
