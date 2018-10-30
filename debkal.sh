@@ -18,8 +18,9 @@ echo -e "----------------Contributer :- Anurag Batra ---------------------------
 echo -e "---------------------------${ORANGE} Hindustani ${WHITE} Tech ${GREEN} Solutions ${WHITE}-------------------------------"
 echo -e "============================================================================================================================="
 echo -e "                             This Script will convert a Debian based os to Kali Linux"
-echo -e "                                            (Tested on Debian and Ubuntu)"
+echo -e "                                         (Tested on Debian and Ubuntu)"
 echo -e "============================================================================================================================="
+echo -e "############## For Qurries Contact me at : hindustanitechsolutions@gmail.com ##################"
     echo -e "================================================================================================================"
     echo -e "----------------------Welcome to Kali Linux OS Installer-------------------------"
     echo -e "1) Install Kali Linux base system ${BLUE} ( Size: 1.5 GB ) ${WHITE}"
@@ -65,7 +66,7 @@ echo -e "=======================================================================
 clear
 echo -e "\nDo you want to install VNC?"
 echo -e "\n 1. Yes, Install Graphical VNC"
-echo -e "\n 2. No, I changed my Mood Exit Script"
+echo -e "\n 2. No, I have No Mood To install it.. So Skip This.. !!"
 while :
 do
   read INPUT_STRING
@@ -106,6 +107,10 @@ do
 		break
 		;;
 	2)
+  echo -e "============================================================================================================================="
+  echo -e "Hurray !! Your Machine has sucessfully converted to Kali Linux ......."
+  echo -e "Now You can enjoy the fun of Kali Linux on your Debian Machine"
+  echo -e "############## For Qurries Contact me at : hindustanitechsolutions@gmail.com ##################"
   echo -e "============================================================================================================================="
   echo -e"Okay your Wish VNC not installed"
   echo -e "Just reboot the Machine and lets see what happens"
