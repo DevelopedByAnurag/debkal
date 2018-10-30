@@ -1,4 +1,4 @@
-[<img src="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=a797e789-5f15-46e5-b287-46d28e46dc23%22%20alt=%22DMCA.com%20Protection%20Status"></img>](https://www.dmca.com/Protection/Status.aspx?id=a797e789-5f15-46e5-b287-46d28e46dc23&refurl=https://github.com/DevelopedByAnurag/debkal/)
+[<img src="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=a797e789-5f15-46e5-b287-46d28e46dc23%22%20alt=%22DMCA.com%20Protection%20Status"></img>](https://www.dmca.com/Protection/Status.aspx?id=a797e789-5f15-46e5-b287-46d28e46dc23&refurl=https://github.com/DevelopedByAnurag/debkal/ "View Certificate")
 
 
 # DebKal
