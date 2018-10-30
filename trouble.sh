@@ -29,10 +29,11 @@ clear
 cat /etc/*-release
 echo -e "==================================================================================="
 echo -e "now check if an error occures just raise a issue and it will be solved"
+echo -e "######### For Qurries Contact me at : hindustanitechsolutions@gmail.com #############"
 echo -e "===================================================================================="
 else
 echo -e "==================================================================================="
-echo -e "installation aborded"
+echo -e "So on your Wish Installation has Been Aborded"
 echo -e "===================================================================================="
 fi
 done
