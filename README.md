@@ -2,7 +2,7 @@
 
 
 # DebKal
-Here is Automated Shell Script that Converts a Debian based OS to a pentesting tool i.e Kali linux. It has been tested on ubuntu and debian you are free to test and add more to the list.
+An Automated Shell Script that Converts a Debian based OS to a pentesting tool i.e Kali linux. It has been tested on ubuntu and core debian you are free to test it on Other Debian variants.
 
 ## Steps To Install Script
 
@@ -23,7 +23,7 @@ Here is Automated Shell Script that Converts a Debian based OS to a pentesting t
 
 ## TroubleShooting
 
-Errors may occur in the installation due to older version of Os or any other error just run the trouble.sh by executing the folllowing command it will rectify the error and install all the kali linux tools on the Machine
+Errors may occur in the process of installation due to older version of OS or any other error just run the trouble.sh by executing the folllowing command it will rectify the error and install all the kali linux tools on the Machine
 
 ```
 ./trouble.sh
@@ -36,4 +36,6 @@ Errors may occur in the installation due to older version of Os or any other err
 More SS commming soon
 
 
-If you like this installer Please Share it with your Developers Freinds Also consider Sharing it so that It can help them to Setup  VNC.
+If you like this installer Please Share it with all your Developers Freinds so that It can help them to Setup there pentesting tools anywhere and everywhere Such as cloud hosting etc that dont offer Kali Linux as a Installable distibution.
+
+Follow me at <a href="https://github.com/DevelopedByAnurag/">Github</a> and Also at <a href="https://www.instagram.com/simply_a_noob/">Instagram </a>
